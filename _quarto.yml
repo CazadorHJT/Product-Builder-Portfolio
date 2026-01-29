@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Hunter Thomas"
-  favicon: images/prototyping-favicon.png
+  favicon: images/favicon.png
   navbar:
     background: primary
     left:
