@@ -1,54 +1,81 @@
 ---
-title: "Name of the application I have published for Homework 1"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: "SwapSpec — AI Engine Swap Planner"
+date: "2025-01-29"
+categories: [FastAPI, Supabase, Unity, Claude AI, Python]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+SwapSpec is an AI-driven engine swap planning platform that helps enthusiasts and professionals plan, validate, and execute engine swap projects. The platform combines a Python FastAPI backend with a Unity mobile client, backed by Supabase for auth, storage, and database.
 
-The primary purpose of this app is to:
+The primary purpose of SwapSpec is to:
 
-- ....
-- ....
+- Provide AI-assisted build planning and compatibility guidance via Claude
+- Decode VINs and catalog vehicle/engine specifications for swap projects
+- Support 3D mesh uploads for engine bay scanning and fitment visualization
+- Generate exportable build reports (JSON and PDF)
+- Track conversation history with the AI Build Advisor per project
 
-## Live Product Demo
+## Architecture
 
-<div class="d-flex justify-content-center gap-3 my-4">
-  <!-- Open App button -->
-  <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
-     target="_blank" rel="noopener"
-     aria-label="Open live app">
-    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
-    Open App in New Tab
-  </a>
+**Backend:** FastAPI + Async SQLAlchemy 2.0 + Supabase PostgreSQL
 
-  <!-- GitHub Source button -->
-  <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
-     target="_blank" rel="noopener"
-     aria-label="Open GitHub source">
-    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
-    View source on GitHub
-  </a>
-</div>
+- Supabase Auth for user registration/login (no local password storage)
+- Supabase Storage for file uploads (mesh files, general uploads)
+- Claude API integration for the AI Build Advisor with persistent conversation history
+- VIN decoding via NHTSA API
+- PDF report generation via WeasyPrint + Jinja2
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
-        style="width:100%; height:900px; border:none;"
-        allowfullscreen>
-</iframe>
+**Client:** Unity C# mobile app
+
+- UnityWebRequest-based HTTP client with JWT token management
+- One service per backend domain (Auth, Vehicle, Engine, Build, Advisor, File)
+- Screen-based UI navigation via ScreenManager
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Framework/Stack:** Python FastAPI, SQLAlchemy 2.0, Supabase, Unity C#
 
-Deployment: GitHub Pages + Vercel
+**Database:** Supabase PostgreSQL via pgBouncer connection pooler
 
-Tools Used:
--   Claude Code
+**Auth:** Supabase Auth (sign_up, sign_in_with_password, JWT validation)
 
-## Product Requirements Document
+**AI:** Anthropic Claude API (claude-sonnet-4-20250514) for build advising
 
-Paste in the PRD that you submitted to Claude Code
+**Deployment:** Supabase cloud infrastructure
+
+**Tools Used:**
+
+- Claude Code for development
+- Supabase for backend infrastructure
+- Unity 2022.3+ for mobile client
+
+## Source Code
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/CazadorHJT/SwapSpec"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View Source on GitHub
+  </a>
+</div>
+
+## Key Features
+
+| Feature | Description |
+|---------|-------------|
+| AI Build Advisor | Claude-powered chat that understands your specific build context |
+| VIN Decoder | NHTSA API integration for automatic vehicle identification |
+| 3D Mesh Uploads | Upload .obj, .stl, .fbx, .gltf, .glb files for engine bay scans |
+| Build Reports | Export builds as JSON data or formatted PDF documents |
+| Chat History | Persistent per-build conversation history with the AI advisor |
+| Transmission Matching | Find compatible transmissions via bellhousing pattern matching |
+
+## Data Model
+
+- **Users** own **Builds** and contribute **Vehicles**
+- **Builds** reference one Vehicle + one Engine + optional Transmission
+- Each Build has its own **ChatMessage** history with the AI Advisor
+- **Transmissions** match **Engines** via bellhousing pattern strings

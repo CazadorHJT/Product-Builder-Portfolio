@@ -1,17 +1,18 @@
 ---
-title: "Welcome to My Product Management Portfolio"
+title: "Hunter Thomas — Product Builder Portfolio"
 ---
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Hunter Thomas" class="rounded-circle mb-3" width="160">
 
-<h1>Your Name</h1>
+<h1>Hunter Thomas</h1>
+<h2>Strategic Management & Product Management</h2>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://www.linkedin.com/in/hunter-thomas20/" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/CazadorHJT" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -21,8 +22,7 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
+### [SwapSpec — AI Engine Swap Planner](projects/project-1.qmd)
+An AI-driven engine swap planning platform with a FastAPI backend, Supabase infrastructure, and Unity mobile client. Features AI build advising, VIN decoding, 3D mesh uploads, and PDF report generation.
 
 :::
-

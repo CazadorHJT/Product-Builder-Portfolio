@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: ""
+  title: "Hunter Thomas"
   favicon: images/prototyping-favicon.png
   navbar:
     background: primary
@@ -15,9 +15,9 @@ website:
       - text: Projects
         menu:
           - href: projects/project-1.qmd
-            text: Name of my first app
+            text: SwapSpec
           #- href: projects/project-2.qmd
-          #  text: Business Case Presentation
+          #  text: Project 2
           #- href: projects/project-3.qmd
           #  text: Project 3
           #- href: projects/project-4.qmd
