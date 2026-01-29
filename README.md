@@ -1,83 +1,42 @@
-# Product Management Portfolio
+# Hunter Thomas — Product Builder Portfolio
 
-This repository contains a professional portfolio website built with Quarto that automatically publishes to GitHub Pages.
+A professional portfolio website built with [Quarto](https://quarto.org/) and automatically deployed to GitHub Pages. Showcases projects in product management, software engineering, and automotive technology.
 
-## 🚀 Getting Started
+## Live Site
 
-### Quick Setup
-1. **Update your information** in the following files:
-   - `index.qmd` - Replace "Your Name" and update your bio, skills, and contact links
-   - `about.qmd` - Add your background, education, experience, and career goals
+**https://cazadorhjt.github.io/Product-Builder-Portfolio/**
 
-2. **Add your profile image**:
-   - Add a professional headshot to the `images/` folder named `profile.jpg`
-   - Update image paths in `index.qmd` and `about.qmd` if you use a different filename
+## Projects
 
-3. **Customize your projects**:
-   - Replace the content in `projects/project-1.qmd`, `projects/project-2.qmd`, etc.
-   - Add project images to the `images/` folder
-   - Update project titles and descriptions in `_quarto.yml`
+| Project | Description | Links |
+|---------|-------------|-------|
+| **SwapSpec** | AI-driven engine swap planning platform built with FastAPI, Supabase, Unity, and Claude AI | [Details](https://cazadorhjt.github.io/Product-Builder-Portfolio/projects/project-1.html) · [Source](https://github.com/CazadorHJT/SwapSpec) |
+| **Pixel Maze Game** | Browser-based maze game with procedurally generated levels, built with Next.js, React, and TypeScript | [Details](https://cazadorhjt.github.io/Product-Builder-Portfolio/projects/project-2.html) · [Play](https://pixel-maze-game.vercel.app) · [Source](https://github.com/CazadorHJT/pixel-maze-game) |
 
-4. **Commit and push** your changes - your website will automatically be published!
+## Tech Stack
 
-## 📁 File Structure
+- **Static Site Generator:** Quarto with Bootstrap "cosmo" theme
+- **Styling:** Custom CSS + Font Awesome icons
+- **Deployment:** GitHub Pages via GitHub Actions (auto-deploys on push to `main`)
+
+## File Structure
 
 ```
-├── .github/workflows/publish.yml    # Automatic deployment to GitHub Pages
-├── _quarto.yml                      # Website configuration
-├── index.qmd                        # Homepage
-├── about.qmd                        # About page
-├── projects/                        # Your project showcases
-│   ├── project-1.qmd
-│   ├── project-2.qmd
-│   └── project-3.qmd
-├── images/                          # Photos and project images
-└── README.md                        # This file
+├── _quarto.yml                      # Website configuration (nav, theme, metadata)
+├── index.qmd                        # Homepage with featured projects
+├── about.qmd                        # Background, skills, education, career goals
+├── styles.css                       # Custom styling
+├── projects/
+│   ├── project-1.qmd               # SwapSpec
+│   ├── project-2.qmd               # Pixel Maze Game
+│   └── project-3–6.qmd             # Placeholders for future projects
+├── images/
+│   └── profile.jpg                  # Profile photo
+└── .github/workflows/publish.yml    # CI/CD deployment workflow
 ```
 
-## ✨ Features
+## Local Development
 
-- **Automatic Deployment**: Push to main branch → website updates automatically
-- **Professional Design**: Clean, modern layout perfect for sharing with employers
-- **Mobile Responsive**: Looks great on all devices
-- **SEO Friendly**: Optimized for search engines and social media sharing
-
-## 🎨 Customization
-
-### Adding New Projects
-1. Create a new `.qmd` file in the `projects/` folder
-2. Add the project to the navigation menu in `_quarto.yml`
-3. Link to it from your homepage in `index.qmd`
-
-### Changing the Theme
-Update the theme in `_quarto.yml`:
-```yaml
-format:
-  html:
-    theme: [cosmo, flatly, litera, minty, pulse, sandstone, simplex, sketchy, slate, solar, spacelab, superhero, united, yeti]
-```
-
-### Custom Styling
-- Add custom CSS in a `styles.css` file
-- Reference it in `_quarto.yml` under `format: html: css: styles.css`
-
-## 🌐 Your Live Website
-
-Once you push your changes, your portfolio will be available at:
-`https://[your-username].github.io/[repository-name]/`
-
-You can find this URL in your repository settings under "Pages" or in the Actions tab after deployment completes.
-
-## 🆘 Need Help?
-
-- **Quarto Documentation**: https://quarto.org/docs/websites/
-- **Markdown Guide**: https://www.markdownguide.org/basic-syntax/
-- **GitHub Pages**: https://docs.github.com/en/pages
-
-## 📄 License
-
-This template is available under the MIT License. Feel free to use it for your own portfolio!
-
----
-
-**Ready to showcase your work? Start by updating `index.qmd` with your information!**# 490R-HW1
+1. Install [Quarto](https://quarto.org/docs/get-started/)
+2. Run `quarto preview` from the project root
+3. The site will open in your browser and auto-refresh on file changes
