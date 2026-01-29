@@ -4,6 +4,16 @@ date: "2025-01-29"
 categories: [Next.js, React, TypeScript, HTML5 Canvas]
 ---
 
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://pixel-maze-game.vercel.app"
+     target="_blank" rel="noopener"
+     aria-label="Play Pixel Maze Game">
+    <i class="fa-solid fa-gamepad me-2" aria-hidden="true"></i>
+    Play the Game
+  </a>
+</div>
+
 ## Overview
 
 Pixel Maze Game is a browser-based maze game where players guide a pixelated character through procedurally generated mazes. Each time the player completes a maze, a new one is generated that is both larger and more difficult, creating an endlessly escalating challenge.
