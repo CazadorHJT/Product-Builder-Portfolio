@@ -1,179 +1,66 @@
 ---
-title: "Business Case Presentation"
-description: "Pitch deck and strategic business case for new product development"
-date: "2024-10-01"
-image: ../images/project2-preview.jpg
-categories: [Business Strategy, Pitch Deck, Product Development]
+title: "Pixel Maze Game"
+date: "2025-01-29"
+categories: [Next.js, React, TypeScript, HTML5 Canvas]
 ---
 
-## Assignment Overview
+## Overview
 
-This project focused on developing a comprehensive business case and pitch presentation for a new product opportunity. The assignment required identifying a market need, analyzing the opportunity, and presenting a compelling case for why the product should be built and funded.
+Pixel Maze Game is a browser-based maze game where players guide a pixelated character through procedurally generated mazes. Each time the player completes a maze, a new one is generated that is both larger and more difficult, creating an endlessly escalating challenge.
 
-## Executive Summary
+This was my first project built from the ground up, combining procedural generation algorithms with responsive game design.
 
-**Product Concept**: [Brief description of your proposed product/service]
+## Architecture
 
-**Market Opportunity**: [Size and growth potential of target market]
+**Framework:** Next.js 16 + React 18 + TypeScript
 
-**Investment Required**: [Estimated funding needed]
+- Single-page application rendered client-side with HTML5 Canvas
+- Procedural maze generation using recursive backtracking with braided dead-end culling
+- Responsive canvas sizing that adapts to any screen width
+- Mobile touch controls alongside keyboard input (WASD / arrow keys)
 
-**Expected Return**: [Projected revenue and profitability timeline]
+## Technical Details
 
-**Recommendation**: [Clear go/no-go recommendation with supporting rationale]
+**Framework/Stack:** Next.js, React, TypeScript, CSS
 
-## Problem Statement
+**Rendering:** HTML5 Canvas with custom pixel-art sprite rendering
 
-### Market Problem
-- **Issue Identification**: What specific problem does your product solve?
-- **Target Audience**: Who experiences this problem most acutely?
-- **Current Solutions**: How are people solving this problem today?
-- **Gap Analysis**: What's missing from existing solutions?
+**Maze Algorithm:** Recursive backtracking with directional bias and configurable braid percentage to remove dead ends at higher difficulty levels
 
-### Quantifying the Problem
-- **Market Size**: How many people/organizations face this issue?
-- **Economic Impact**: What does this problem cost users currently?
-- **Urgency**: Why is now the right time to solve this problem?
-- **Evidence**: What data supports the existence and scale of this problem?
+**Difficulty Scaling:**
 
-## Market Analysis
+- Maze grid starts at 5×5 and grows by 2 per level (capped at 25×25)
+- Braid percentage increases with level, opening alternate paths and making navigation harder
+- Three difficulty tiers: Easy (levels 1–3), Medium (levels 4–7), Hard (levels 8+)
 
-### Industry Overview
-- **Market Size**: Total Addressable Market (TAM), Serviceable Addressable Market (SAM)
-- **Growth Trends**: Historical growth rates and future projections
-- **Key Drivers**: What factors are driving market growth?
-- **Market Maturity**: Where is this market in its lifecycle?
+**Game Features:**
 
-### Competitive Landscape
-- **Direct Competitors**: Who offers similar solutions?
-- **Indirect Competitors**: What alternative approaches exist?
-- **Competitive Advantages**: How will you differentiate?
-- **Market Positioning**: Where will you fit in the competitive landscape?
+| Feature | Description |
+|---------|-------------|
+| Procedural Mazes | Every maze is uniquely generated using recursive backtracking |
+| Progressive Difficulty | Mazes grow larger and more complex each level |
+| Pixel Art Character | Custom 8×8 pixel sprite rendered on canvas |
+| Move & Time Tracking | Tracks moves and elapsed time per level |
+| Best Records | Stores personal best moves and time per level |
+| Screen Shake | Visual feedback when the player hits a wall |
+| Mobile Controls | On-screen directional buttons for touch devices |
+| Neon Visual Theme | Glowing walls, floating particles, and cyberpunk aesthetic |
 
-### Customer Analysis
-- **Target Segments**: Primary and secondary customer groups
-- **User Personas**: Detailed profiles of ideal customers
-- **Buying Behavior**: How do customers make purchase decisions?
-- **Price Sensitivity**: What are customers willing to pay?
+## Source Code
 
-## Solution Overview
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/CazadorHJT/pixel-maze-game"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View Source on GitHub
+  </a>
+</div>
 
-### Product Vision
-- **Core Value Proposition**: What unique value do you provide?
-- **Key Features**: What are the essential product capabilities?
-- **User Experience**: How will customers interact with your product?
-- **Differentiation**: What makes your solution superior?
+## How It Works
 
-### Product Strategy
-- **Development Approach**: Build vs. buy vs. partner decisions
-- **Technology Stack**: What technical foundation will you use?
-- **Scalability**: How will the product grow with demand?
-- **Innovation**: What makes this solution innovative?
-
-## Business Model
-
-### Revenue Model
-- **Pricing Strategy**: How will you price your product?
-- **Revenue Streams**: What are your sources of income?
-- **Customer Acquisition**: How will you attract customers?
-- **Unit Economics**: What are your cost and revenue per customer?
-
-### Financial Projections
-- **Revenue Forecast**: 3-5 year revenue projections
-- **Cost Structure**: Development, operational, and marketing costs
-- **Profitability Timeline**: When will you reach break-even?
-- **Investment Requirements**: Funding needed for different milestones
-
-### Go-to-Market Strategy
-- **Launch Strategy**: How will you introduce the product?
-- **Marketing Channels**: How will you reach customers?
-- **Sales Strategy**: Direct, partner, or hybrid approach?
-- **Customer Success**: How will you ensure customer satisfaction?
-
-## Implementation Plan
-
-### Development Roadmap
-- **Phase 1**: MVP development and initial testing
-- **Phase 2**: Full product launch and market entry  
-- **Phase 3**: Scale and expansion opportunities
-- **Milestones**: Key deliverables and timeline
-
-### Resource Requirements
-- **Team Structure**: What roles and skills are needed?
-- **Technology Infrastructure**: What systems and tools are required?
-- **Capital Requirements**: Funding needs by phase
-- **Strategic Partnerships**: What alliances will accelerate success?
-
-### Risk Analysis
-- **Market Risks**: What could change in the market?
-- **Technical Risks**: What development challenges might arise?
-- **Competitive Risks**: How might competitors respond?
-- **Mitigation Strategies**: How will you address each risk?
-
-## Success Metrics
-
-### Key Performance Indicators
-- **Customer Metrics**: Acquisition, retention, satisfaction
-- **Business Metrics**: Revenue, profitability, market share
-- **Product Metrics**: Usage, engagement, feature adoption
-- **Operational Metrics**: Efficiency, quality, scalability
-
-### Success Criteria
-- **Short-term (6 months)**: [Specific measurable goals]
-- **Medium-term (1-2 years)**: [Growth and market position targets]
-- **Long-term (3-5 years)**: [Vision achievement and expansion goals]
-
-## Investment Recommendation
-
-### Case for Investment
-1. **Market Opportunity**: Large, growing market with clear need
-2. **Competitive Advantage**: Defensible differentiation and positioning
-3. **Team Capability**: Right skills and experience to execute
-4. **Financial Returns**: Attractive risk-adjusted return potential
-5. **Strategic Fit**: Aligns with organizational goals and capabilities
-
-### Expected Outcomes
-- **Revenue Impact**: [Projected revenue contribution]
-- **Market Position**: [Expected market share and positioning]
-- **Strategic Value**: [Broader organizational benefits]
-- **Growth Platform**: [Future expansion opportunities]
-
-## Next Steps
-
-### Immediate Actions (30 days)
-- [ ] Secure initial funding/approval
-- [ ] Finalize team structure and hiring
-- [ ] Complete technical feasibility analysis
-- [ ] Develop detailed project plan
-
-### Short-term Milestones (90 days)
-- [ ] Complete market validation research
-- [ ] Build MVP and conduct user testing
-- [ ] Establish key partnerships
-- [ ] Refine go-to-market strategy
-
-### Long-term Goals (1 year)
-- [ ] Launch product to target market
-- [ ] Achieve customer acquisition targets
-- [ ] Demonstrate product-market fit
-- [ ] Plan expansion opportunities
-
-## Appendices
-
-### Supporting Data
-- Market research reports and analysis
-- Customer interview findings
-- Competitive analysis details
-- Financial model assumptions
-
-### Presentation Materials
-- **Slide Deck**: [Link to presentation slides]
-- **Executive Summary**: [One-page business case summary]  
-- **Financial Model**: [Detailed financial projections]
-- **Supporting Research**: [Market data and analysis]
-
----
-
-**Skills Demonstrated:** Business Strategy, Market Analysis, Financial Modeling, Presentation Design, Strategic Planning
-
-**Tools Used:** PowerPoint/Keynote, Excel/Google Sheets, Market Research Databases, Survey Tools
+1. **Maze Generation** — A grid of cells is created and carved into a maze using recursive backtracking with a directional bias for longer corridors. Dead ends are then selectively removed ("braided") based on the current difficulty level.
+2. **Player Movement** — The player navigates using keyboard (WASD / arrows) or mobile touch controls. Wall collisions trigger a screen shake animation.
+3. **Level Progression** — Reaching the bottom-right corner completes the level. The game records your stats, displays a win modal, and automatically generates the next (larger) maze.
+4. **Rendering** — The maze walls, finish point, and pixel-art player character are drawn each frame on an HTML5 Canvas with a neon glow effect.

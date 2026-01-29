@@ -26,3 +26,10 @@ title: "Hunter Thomas — Product Builder Portfolio"
 An AI-driven engine swap planning platform with a FastAPI backend, Supabase infrastructure, and Unity mobile client. Features AI build advising, VIN decoding, 3D mesh uploads, and PDF report generation.
 
 :::
+
+::: {.g-col-12 .g-col-md-6 .card}
+
+### [Pixel Maze Game](projects/project-2.qmd)
+A browser-based maze game built with Next.js, React, and TypeScript. Players navigate a pixelated character through procedurally generated mazes that grow larger and more complex with each level.
+
+:::
