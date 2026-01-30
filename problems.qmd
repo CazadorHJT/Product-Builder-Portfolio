@@ -1,0 +1,99 @@
+---
+title: "Problems I'm Exploring"
+---
+
+::: {.problems-intro .text-center}
+
+I believe the best products start with real frustrations. These are five problems I've personally experienced — each one represents a gap I think is worth closing. I'm not just theorizing; I've lived these pain points, and I'm actively exploring how to solve them.
+
+:::
+
+## 1. The "Mid-Swap" Technical Knowledge Gap
+
+::: {.problem-card}
+
+### The Problem
+
+DIY builders face "project paralysis" because integrated, step-by-step technical guides for engine swaps simply don't exist in one place. The information needed to combine mechanical, electrical, and fabrication requirements for specific popular swaps is scattered across outdated forums and vague YouTube videos. Builders are left stitching together incomplete advice from dozens of sources, often making expensive mistakes along the way.
+
+### Why This Matters to Me
+
+I've navigated this firsthand with a 1UZFE swap into a 4Runner. Every phase — motor mounts, wiring harness, ECU tuning — required hunting through fragmented communities for answers that should have been consolidated from the start. The time and money lost to bad information is a real cost that holds back an entire hobbyist economy.
+
+### A Path Forward
+
+A platform that sells comprehensive "Swap Blueprints" — digital kits that bundle 3D-printable bracket files, wiring harness diagrams, parts lists, and project management tooling specifically for popular resto-mod configurations. Think of it as the missing instruction manual for builds that never had one.
+
+:::
+
+## 2. High-Performance Logistics for SoCal Enthusiasts
+
+::: {.problem-card}
+
+### The Problem
+
+Automotive and motorcycle enthusiasts in Southern California have the capital for high-end project vehicles but lack the physical space, specialized tools, and affordable transport to maintain them without paying dealership rates. High-density urban living makes it nearly impossible to wrench on a car at home, and private garage rental is prohibitively expensive.
+
+### Why This Matters to Me
+
+As I look toward relocating to the LA/San Diego area, managing a fleet of project cars and motorcycles in a metro environment is a real logistical problem I'll need to solve. It's a pain point shared by thousands of builders across SoCal who are stuck between selling their toys or overpaying for basic maintenance.
+
+### A Path Forward
+
+A "co-working garage" or high-end concierge storage facility that offers shared lifts, industrial tools, secure storage, and a community of like-minded builders. Members get the workspace and equipment of a professional shop without the overhead — and the network effects of a builder community create retention that traditional storage can't match.
+
+:::
+
+## 3. Fragmentation in the Amateur Pickleball Ecosystem
+
+::: {.problem-card}
+
+### The Problem
+
+Pickleball is growing faster than the digital infrastructure supporting it. Finding consistent, skill-level-appropriate open play sessions or managing local ladder leagues is still largely handled through clunky apps, Facebook groups, or informal text chains. Clubs struggle to manage court density, and players waste time showing up to sessions that don't match their level.
+
+### Why This Matters to Me
+
+I've dealt with equipment warranty claims, searched for quality local facilities, and experienced the scheduling friction firsthand. The sport deserves tooling that matches its growth trajectory — and my experience working at Stride Scheduling gave me a front-row seat to what good scheduling infrastructure looks like.
+
+### A Path Forward
+
+A streamlined scheduling and "matchmaking" SaaS built specifically for pickleball clubs. The platform would manage court reservations, player ratings, and skill-based session matching — reducing no-shows, improving court utilization, and giving players a reason to stay loyal to a club instead of bouncing between open play options.
+
+:::
+
+## 4. Limited "Clean" Energy Alternatives for Outdoor Athletes
+
+::: {.problem-card}
+
+### The Problem
+
+Traditional energy drinks carry an "unhealthy" stigma in the outdoor performance community, yet most "natural" energy alternatives lack the intense kick athletes actually want — and none of them have built a brand with the lifestyle appeal of Red Bull or Monster. There's a gap between what health-conscious outdoor athletes need and what the market delivers.
+
+### Why This Matters to Me
+
+I have a deep affinity for Red Bull but spend a significant amount of time hiking, climbing, and skiing. The cognitive dissonance between fueling up with a can of chemicals before a backcountry ski day is real. I want something that performs like a traditional energy drink but is formulated for the demands of high-altitude and endurance activity — without sacrificing the brand identity that makes you want to grab one in the first place.
+
+### A Path Forward
+
+A premium, "adventure-grade" energy supplement or beverage brand that mirrors Red Bull's lifestyle marketing but uses clean-label ingredients specifically formulated for endurance and high-altitude activities. The positioning isn't "healthy energy drink" — it's "built for the mountains," which is a fundamentally different brand promise.
+
+:::
+
+## 5. Transitioning from Student to Professional Product Management
+
+::: {.problem-card}
+
+### The Problem
+
+Business strategy students often graduate with strong theoretical knowledge but no portfolio of shipped products to show recruiters. Meanwhile, early-stage startups have product backlogs full of real problems they can't afford to hire for. Both sides lose: students can't prove they can execute, and startups can't get their friction points addressed.
+
+### Why This Matters to Me
+
+As a BYU student entering a competitive market for product roles in Southern California, I've experienced this gap directly. The traditional internship pipeline doesn't always surface the best candidates — it surfaces the best networkers. There should be a more merit-based bridge between academic preparation and professional execution.
+
+### A Path Forward
+
+A specialized marketplace connecting graduating PM students with startups for "Micro-Internships" — structured, four-week projects where a student solves one specific product friction point in exchange for a portfolio piece and a verified recommendation. It's a win-win: startups get focused product work at a fraction of a full hire, and students graduate with proof they can ship.
+
+:::

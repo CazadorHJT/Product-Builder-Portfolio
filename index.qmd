@@ -1,35 +1,51 @@
 ---
-title: "Hunter Thomas — Product Builder Portfolio"
+pagetitle: "Hunter Thomas — Product Builder Portfolio"
+toc: false
+page-layout: full
 ---
 
-::: {.hero-banner .text-center}
+<section class="dark-hero">
+<div class="hero-watermark">HUNTER</div>
+<div class="hero-inner">
+<div class="hero-left">
+<div class="hero-socials">
+<a href="https://www.linkedin.com/in/hunter-thomas20/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://github.com/CazadorHJT" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+</div>
+<div class="hero-text">
+<p class="hero-greeting">Hello, I'm</p>
+<h1>Hunter <span class="accent">Thomas</span></h1>
+<p class="hero-subtitle">Product-minded builder at the intersection of automotive engineering and software. Strategic Management & Product Management at BYU.</p>
+<div class="hero-buttons">
+<a href="problems.html" class="btn-hero-primary">My Portfolio</a>
+<a href="about.html" class="btn-hero-play"><i class="fas fa-play"></i></a>
+</div>
+</div>
+</div>
+<div class="hero-right">
+<div class="hero-image-wrapper">
+<img src="images/profile.jpg" alt="Hunter Thomas">
+</div>
+</div>
+</div>
+</section>
 
-<img src="images/profile.jpg" alt="Hunter Thomas" class="rounded-circle mb-3" width="160">
-
-<h1>Hunter Thomas</h1>
-<h2>Strategic Management & Product Management</h2>
-
-<a href="https://www.linkedin.com/in/hunter-thomas20/" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-linkedin"></i> LinkedIn
-</a>
-<a href="https://github.com/CazadorHJT" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-github"></i> GitHub
-</a>
-
-:::
+:::: {.content-section}
 
 ## Featured Projects
 
-::: {.g-col-12 .g-col-md-6 .card}
+::: {.g-col-12 .g-col-md-6}
 
 ### [SwapSpec — AI Engine Swap Planner](projects/project-1.qmd)
 An AI-driven engine swap planning platform with a FastAPI backend, Supabase infrastructure, and Unity mobile client. Features AI build advising, VIN decoding, 3D mesh uploads, and PDF report generation.
 
 :::
 
-::: {.g-col-12 .g-col-md-6 .card}
+::: {.g-col-12 .g-col-md-6}
 
 ### [Pixel Maze Game](projects/project-2.qmd)
 A browser-based maze game built with Next.js, React, and TypeScript. Players navigate a pixelated character through procedurally generated mazes that grow larger and more complex with each level.
 
 :::
+
+::::
