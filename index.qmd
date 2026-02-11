@@ -48,4 +48,11 @@ A browser-based maze game built with Next.js, React, and TypeScript. Players nav
 
 :::
 
+::: {.g-col-12 .g-col-md-6}
+
+### [MCAT Prep App — Adaptive Study Platform](projects/project-3.qmd)
+A full-stack adaptive learning platform with 3,790 MCAT-style questions across 7 subjects. Features error-driven reinforcement, concept-level mastery tracking, and a hierarchical progress dashboard.
+
+:::
+
 ::::

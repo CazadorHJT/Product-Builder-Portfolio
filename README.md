@@ -12,6 +12,7 @@ A professional portfolio website built with [Quarto](https://quarto.org/) and au
 |---------|-------------|-------|
 | **SwapSpec** | AI-driven engine swap planning platform built with FastAPI, Supabase, Unity, and Claude AI | [Details](https://cazadorhjt.github.io/Product-Builder-Portfolio/projects/project-1.html) · [Source](https://github.com/CazadorHJT/SwapSpec) |
 | **Pixel Maze Game** | Browser-based maze game with procedurally generated levels, built with Next.js, React, and TypeScript | [Details](https://cazadorhjt.github.io/Product-Builder-Portfolio/projects/project-2.html) · [Play](https://pixel-maze-game.vercel.app) · [Source](https://github.com/CazadorHJT/pixel-maze-game) |
+| **MCAT Prep App** | Adaptive MCAT study platform with 3,790 questions across 7 subjects, built with React, FastAPI, and Supabase | [Details](https://cazadorhjt.github.io/Product-Builder-Portfolio/projects/project-3.html) · [Try](https://mcat-prep-app.vercel.app) · [Source](https://github.com/CazadorHJT/MCAT-Prep-App) |
 
 ## Tech Stack
 
